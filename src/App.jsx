@@ -2,6 +2,7 @@ import { useEffect, useRef, useState } from "react";
 
 const MAPS_URL =
   "https://www.google.com/maps/search/?api=1&query=153+B%C3%B9i+X%C6%B0%C6%A1ng+Tr%E1%BA%A1ch%2C+Thanh+Xu%C3%A2n%2C+H%C3%A0+N%E1%BB%99i";
+const ASSET_BASE = import.meta.env.BASE_URL;
 
 const navItems = [
   ["Câu chuyện", "#cau-chuyen"],
@@ -205,7 +206,7 @@ function Hero() {
         <Reveal as="figure" className="hero-visual">
           <div className="visual-frame">
             <img
-              src="/assets/bee-barber-king.jpg"
+              src={`${ASSET_BASE}assets/bee-barber-king.jpg`}
               alt="Hình ảnh nhận diện Bee Barber House với vua ong cầm kéo barber"
               width="1024"
               height="1024"
