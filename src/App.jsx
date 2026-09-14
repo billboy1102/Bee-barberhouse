@@ -1,5 +1,5 @@
 import { useEffect, useRef, useState } from 'react';
-const logo = `${import.meta.env.BASE_URL}assets/bee-logo-transparent.png`;
+const logo = `${import.meta.env.BASE_URL}assets/bee-logo-transparent-fixed.png`;
 const maps = 'https://www.google.com/maps/search/?api=1&query=441+Vũ+Hữu+Thanh+Xuân+Hà+Nội';
 const services = [
  ['01','Cắt & tạo kiểu','Một mái tóc hợp gương mặt. Một diện mạo đúng chất bạn.','Tư vấn kiểu tóc · Cắt tạo form · Hoàn thiện'],
